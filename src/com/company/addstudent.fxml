@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="com.company.AddStudentCTL" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#Exit" layoutX="14.0" layoutY="43.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="&lt;&lt; EXIT" />
+      <Text layoutX="314.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Student" textAlignment="CENTER" wrappingWidth="172.6708984375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button onAction="#studentlist" layoutX="238.0" layoutY="460.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Student List" />
+      <Button onAction="#addstudent" layoutX="447.0" layoutY="460.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="153.0" text="Add Student" />
+      <TextField  fx:id="sEnrolID" layoutX="278.0" layoutY="138.0" prefHeight="35.0" prefWidth="245.0" promptText="Enrol ID" />
+      <TextField  fx:id="sLastName" layoutX="278.0" layoutY="251.0" prefHeight="35.0" prefWidth="245.0" promptText="Last Name" />
+      <TextField fx:id="sAge" layoutX="278.0" layoutY="300.0" prefHeight="35.0" prefWidth="245.0" promptText="Age" />
+      <TextField fx:id="sFirstName" layoutX="278.0" layoutY="190.0" prefHeight="35.0" prefWidth="245.0" promptText="First Name" />
+   </children>
+</Pane>
